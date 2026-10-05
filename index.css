@@ -2,17 +2,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 .main-header {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: crimson;
+    border-bottom: solid black;
+
 }
 
 .logo {
     margin: 20px;
     padding: 4px;
-    display: flex;
     margin-right: auto;
     font-size: 24px;
     font-weight: 900;
@@ -21,7 +23,7 @@ body {
 
 .right-links ul {
     margin: 20px;
-    padding: 6px;
+    padding: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,8 +32,53 @@ body {
 
 }
 
-a {
-    font-size: ;
+.right-links a {
+    font-size: 18px;
+    padding: 8px;
     color: wheat;
     text-decoration: none;
+}
+
+.second-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 200px;
+    background-color: crimson;
+    gap: 48px
+}
+
+.information {
+    color: wheat;
+    flex: 1;
+}
+
+.information h1 {
+    font-size: 40px;
+    margin: 0 0 8px 0;
+}
+
+.information p {
+    font-size: 16px;
+    margin: 0 0 24px 0;
+}
+
+.button {
+    background-color: wheat;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.image-placeholder {
+    background-color: wheat;
+    display: flex;
+    flex: 1;
+    color: black;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
 }
