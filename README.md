@@ -19,4 +19,4 @@ A landing page built for The Odin Project's foundations course.
 
 ## Live preview
 
-(add a link here once you publish the page, see below)
+https://scropico2.github.io/Odin-s-Landing-Page/
