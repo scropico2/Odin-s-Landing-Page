@@ -82,3 +82,118 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.information-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    color: wheat;
+    padding-top: 32px;
+    border-top: solid black;
+    background-color: crimson;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.mid-group {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: crimson;
+    border-bottom: solid black
+}
+
+.item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 200px;
+}
+
+.text {
+    color: wheat;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 64px 24px;
+    background-color: crimson;
+}
+
+.quote {
+    width: 100%;
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: wheat;
+}
+
+.author {
+    width: 100%;
+    max-width: 800px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.author p {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    border: solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 64px;
+    margin: 64px auto;
+    background-color: crimson;
+    color: wheat;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.sign {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.sign-info {
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.actions button {
+    padding: 12px 24px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: crimson;
+    padding: 20px;
+    color: wheat;
+}
